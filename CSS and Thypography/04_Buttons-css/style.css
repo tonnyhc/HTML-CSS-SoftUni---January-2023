@@ -1,0 +1,29 @@
+@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.button{
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 4px;
+    font-size: 17px;
+    margin-right: 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+.button.normal{
+    background-color: transparent;
+    color: rgb(51, 51, 51);
+}
+.fill{
+    background-color: rgb(51, 51, 51);
+    color: rgb(251, 251, 251);
+}
+
+.button.hover:hover{
+    background-color: rgb(0, 102, 0);
+}
