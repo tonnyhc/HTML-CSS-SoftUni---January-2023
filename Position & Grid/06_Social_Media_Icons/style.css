@@ -1,0 +1,38 @@
+@import "https://use.fontawesome.com/releases/v6.2.0/css/all.css";
+
+ul li{
+    display: inline-block;
+    list-style: none;
+    font-size: 50px;
+    background-color: #DBDBDB;
+    margin-left: 15px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+ul li a {
+    color: black;
+    position: relative;
+    top: 24%;
+    bottom: 0;
+    left: 25%;
+    border-radius: 50%;
+}
+.facebook:hover *{
+    color: cornflowerblue;;
+}
+.twitter:hover *{
+    color: cornflowerblue;;
+}
+.google:hover *{
+    color: salmon;;
+}
+.linked-in:hover *{
+    color: cornflowerblue;;
+}
+.instagram:hover *{
+    color: cornflowerblue;;
+}
+
+
+

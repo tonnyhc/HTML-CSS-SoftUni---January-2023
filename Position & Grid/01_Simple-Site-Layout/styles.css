@@ -1,0 +1,50 @@
+body{
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+    "head head head head head head"
+    "head head head head head head"
+    "aside main main main main main"
+    "aside main main main main main"
+    "aside main main main main main"
+    "foot foot foot foot foot foot";
+
+    padding: 5px 10px;
+}
+body * {
+    padding: 5px 10px;
+    border-radius: 3px;
+    background-color: rgb(181, 216, 255);
+}
+
+header{
+    grid-area: head;
+    
+}
+header h1{
+    display: inline-block;
+    vertical-align: middle;
+}
+aside{
+    grid-area: aside;
+}
+aside ul{
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+}
+
+aside ul li a {
+    display: block;
+    padding: 5px 0;
+    color: rgb(86, 40, 129);
+    text-decoration: none;
+}
+
+main{
+    grid-area: main;
+
+}
+footer{
+    grid-area: foot;
+}

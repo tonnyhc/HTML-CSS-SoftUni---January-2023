@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(238, 238, 238);
+    padding: 10px 50px;
+}
+
+h1,h2,h3{
+    font-family: Georgia, serif;
+}
+
+blockquote, h1,h2,h3{
+    font-family: Georgia, serif;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 102, 0);
+}
+
+.upper-nav{
+    border-bottom: 2px solid black;
+    vertical-align: baseline;
+
+}
+.upper-nav nav{
+    float: right;
+}
+
+.upper-nav p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.upper-nav p,nav{
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.upper-nav  ul li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 10px;
+}
+
+main{
+    display: inline-block;
+    width: 80%;
+    margin-right: 24px;
+}
+aside{
+    display: inline-block;
+    width: 18%;
+    vertical-align: top;
+}
+img{
+    border: 3px solid black;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.25) ;
+    padding: 5px;
+}
+.first{
+    float:right;
+}
+.second{
+    float:left;
+    margin-right: 10px;
+}
+.inline-p{
+    display: inline-block;
+    width: 49%;
+}
+blockquote{
+    color: gray;
+    margin: 0 0 0 10px;
+    border-left: 3px solid #DBDBDB;
+    margin: 0;
+    display: inline-block;
+    width: 49%;
+    box-sizing: border-box;
+    padding: 0px 0px 10px 15px;
+}
+.author{
+    text-align: right;
+}
