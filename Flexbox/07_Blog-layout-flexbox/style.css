@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 25px 50px;
+    background-color: rgb(238, 238, 238);
+}
+
+.page{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header{
+    border-bottom: 2px solid gray;
+}
+
+.content-wrapper{
+    display: inline-block;
+    width: 80%;
+}
+
+img{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border: 3px solid black;
+}
+
+#img1{
+    float: right;
+    margin-left: 10px;
+}
+#img2{
+    float: left;
+    margin-right: 10px;
+}
+
+blockquote{
+    font-family: Georgia, serif;
+}
+
+aside a{
+    color: rgb(0, 153, 0);
+}
+
+h1, h2, h3, h4{
+    font-family: Georgia, serif;
+}
+
+aside{
+    display: inline-block;
+    width: 20%;
+    padding: 0 14px;
+}
+
+.info-wrapper{
+    display: flex;
+}
+
+.info-wrapper > p, .info-wrapper blockquote{
+    width: 50%;
+}
+
+blockquote .author{
+    float: right;
+}
+
+
+
+.info-wrapper blockquote{
+    color: gray;
+    border-left: 2px solid gray;
+    margin: 0;
+    padding: 0 10px;
+    font-family: Georgia, serif;
+    font-style: italic;
+}

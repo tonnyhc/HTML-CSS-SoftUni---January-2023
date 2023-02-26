@@ -1,0 +1,24 @@
+html * {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    max-width: 65vw;
+}
+
+section{
+    display: flex;
+}
+
+.week{
+    flex-direction: column;
+}
+
+span{
+    border: 1px solid black;
+}
+
+.notes{
+    flex-direction: column;
+}
